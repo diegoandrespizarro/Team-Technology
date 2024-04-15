@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-color: #9ebecb;
+}
+.textLogo{
+    font-size: 40px;
+}
+.btnHambur{
+    border: none;
+}
+.textSubnav{
+    align-items: center;
+    font-size: 30px;
+}

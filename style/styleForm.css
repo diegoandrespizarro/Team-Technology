@@ -1,0 +1,60 @@
+/* formulario */
+/* .divForm{
+    background-color: ;
+} */
+.textContacto{
+    text-align: center;
+}
+*{box-sizing:border-box;}
+form{
+	width:450px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#cddee5;
+}
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;    
+}
+form input[type="text"],
+form input[type="email"]{
+	width:300px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+    
+}
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #9ebecb;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#7296a4;    
+} 
+form input[type="submit"]:hover{
+	cursor:pointer;
+    background-color: grey;
+}
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block; 
+}
+.checkBox{
+    width: 95%;
+    
+}
