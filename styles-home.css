@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.banner img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.twopart {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background: white;
+}
+
+.part1 {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background: #3eafa8;
+}
+
+.part2 {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background: white;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px 20px 20px 50px;
+}
+
+.content1 h2 {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.content1 p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #3eafa8;
+  padding: 20px 20px 20px 50px;
+}
+
+.content2 h2 {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.content2 p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery .hover {
+  width: 0%;
+  height: 100%;
+  background-color: #080808bb;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hover h2 {
+  color: white;
+  text-shadow: 1px 1 px 1px black;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.gallery:hover .hover {
+  width: 100%;
+}
+
+.technology {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.contenttext {
+  text-align: center;
+}
+
+.contenttext h2 {
+  font-size: 40px;
+  padding-top: 40px;
+  color: #3eafa8;
+}
+
+.contenttext p {
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.parts img {
+  display: flex;
+  justify-content: center;
+}
