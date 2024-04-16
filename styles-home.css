@@ -37,7 +37,7 @@ body {
   display: flex;
   width: 50%;
   height: 100%;
-  background: white;
+  background: black;
 }
 
 .content1 {
@@ -80,27 +80,28 @@ body {
   padding: 20px;
 }
 
-.container {
+.cont {
   display: flex;
   width: 100%;
-  background-color: aliceblue;
+  background-color: white;
   justify-content: center;
-  align-items: center;
 }
 
-.gallery {
-  text-align: center;
+.gal {
+  justify-content: center;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-.gallery img {
+.gal img {
+  justify-content: center;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.gallery .hover {
+.gal .hover {
   width: 0%;
   height: 100%;
   background-color: #080808bb;
@@ -119,7 +120,7 @@ body {
   text-transform: uppercase;
 }
 
-.gallery:hover .hover {
+.gal:hover .hover {
   width: 100%;
 }
 
@@ -129,20 +130,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: black;
 }
 
 .contenttext {
+  display: flex;
+  width: 100%;
+  height: 500px;
   text-align: center;
+  align-items: center;
 }
 
 .contenttext h2 {
+  width: 50%;
   font-size: 40px;
   padding-top: 40px;
   color: #3eafa8;
 }
 
 .contenttext p {
+  width: 50%;
+  text-align: start;
+  color: white;
   font-size: 20px;
   padding-left: 50px;
   padding-right: 50px;
@@ -150,7 +159,116 @@ body {
   margin-right: 50px;
 }
 
-.parts img {
+.carousel {
+  width: 100%;
+}
+
+.treepart {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background: white;
+}
+
+.partblue {
   display: flex;
   justify-content: center;
+  width: 50%;
+  height: 100%;
+  background: #3eafa8;
+}
+
+.partwhite {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+
+.partgray {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background: rgb(75, 74, 74);
+}
+
+.contentblue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.contentblue h2 {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.contentblue img {
+  width: 200px;
+  height: 200px;
+  transition: 2s;
+}
+
+.contentblue img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.contentwhite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #3eafa8;
+  padding: 20px;
+}
+
+.contentwhite h2 {
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 19px;
+}
+
+.contentwhite img {
+  width: 180px;
+  height: 180px;
+  transition: 2s;
+}
+
+.contentwhite img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.contentgray {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.contentgray h2 {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.contentgray img {
+  width: 200px;
+  height: 200px;
+  transition: 2s;
+}
+
+.contentgray img:hover {
+  transform: scale(1.1);
+  transition: 2s;
 }
