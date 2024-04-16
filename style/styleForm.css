@@ -1,22 +1,19 @@
-/* formulario */
-/* .divForm{
-    background-color: ;
-} */
 .textContacto{
     text-align: center;
 }
 *{box-sizing:border-box;}
 form{
-	width:450px;
+	width:800px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
 	background-color:#cddee5;
+	margin-top: 80px;	  
 }
 form label{
 	width:72px;
 	font-weight:bold;
-	display:inline-block;    
+	display:inline-block;
 }
 form input[type="text"],
 form input[type="email"]{
@@ -27,7 +24,7 @@ form input[type="email"]{
 	background-color:#f6f6f6;
 	margin:8px 0;
 	display:inline-block;
-    
+     
 }
 form input[type="submit"]{
 	width:100%;
@@ -37,7 +34,8 @@ form input[type="submit"]{
 	border-radius:5px;
 	display:block;
 	color:#fff;
-	background-color:#7296a4;    
+	background-color:#7296a4;
+	
 } 
 form input[type="submit"]:hover{
 	cursor:pointer;
@@ -50,7 +48,6 @@ textarea{
 	border-radius:3px;
 	background-color:#f6f6f6;			
 	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block; 
 }
