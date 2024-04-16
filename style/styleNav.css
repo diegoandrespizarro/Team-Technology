@@ -4,6 +4,7 @@
 }
 .logo{
     background-color: #9ebecb;
+    box-shadow: 0px 5px 20px 5px #0000008c;
 }
 .textLogo{
     font-size: 40px;
