@@ -12,7 +12,7 @@
   }
   /*IMAGEN DENTRO CARDS*/
   .imagenPerfil{
-    border-radius: 5px;
+    border-radius: 0px;
     margin: 0px;
     padding: 0px;
   }
@@ -23,8 +23,10 @@
   .col-md-4{
     background-color:#EFEFEF;
   }
+  /*BOTON DENTRO DE CARDS*/
   .button{
     background-color: #9EBECB;
+    border-radius: 2px;
   }
   .button:hover{
     background-color:#7296A4;
