@@ -1,7 +1,10 @@
+/*IMAGEN INTERIOR DE LAS CARDS*/
 .imagen{
     transform: scale(var(--escala, 1));
     transition: transform 0.25s;
     border-radius: 5px;
+    --bs-card-spacer-x: 10px;
+    
   }
   .imagen:hover{
     --escala: 1.1;
@@ -9,5 +12,20 @@
   }
   .imagenPerfil{
     border-radius: 5px;
-    margin: 6px;
+    margin: 0px;
+    padding: 0px;
+  }
+  /*COLOR DE LAS CARDS*/
+  .card-body{
+    background-color:#E6F0F2;
+  }
+  .col-md-4{
+    background-color:#EFEFEF;
+  }
+  .button{
+    background-color: #9EBECB;
+  }
+  .button:hover{
+    background-color:#7296A4;
+    color:#E6F0F2;
   }
