@@ -1,4 +1,4 @@
-/*IMAGEN INTERIOR DE LAS CARDS*/
+/* ESTRUCTURA CARDS*/
 .imagen{
     transform: scale(var(--escala, 1));
     transition: transform 0.25s;
@@ -10,6 +10,7 @@
     --escala: 1.1;
     cursor:pointer;
   }
+  /*IMAGEN DENTRO CARDS*/
   .imagenPerfil{
     border-radius: 5px;
     margin: 0px;
