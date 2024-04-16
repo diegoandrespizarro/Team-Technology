@@ -8,46 +8,13 @@ body {
   width: 100%;
 }
 
-.banner {
-  width: 100%;
-  height: auto;
-}
-
-.banner img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-}
-
 .twopart {
-  display: flex;
-  width: 100%;
   height: 500px;
   background: white;
 }
 
 .part1 {
-  display: flex;
-  width: 50%;
-  height: 100%;
   background: #3eafa8;
-}
-
-.part2 {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  background: black;
-}
-
-.content1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 20px 20px 20px 50px;
 }
 
 .content1 h2 {
@@ -60,38 +27,16 @@ body {
   padding: 20px;
 }
 
-.content2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #3eafa8;
-  padding: 20px 20px 20px 50px;
-}
-
 .content2 h2 {
+  color: #3eafa8;
   font-size: 50px;
   padding: 5px;
 }
 
 .content2 p {
+  color: #3eafa8;
   font-size: 20px;
   padding: 20px;
-}
-
-.cont {
-  display: flex;
-  width: 100%;
-  background-color: white;
-  justify-content: center;
-}
-
-.gal {
-  justify-content: center;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
 }
 
 .gal img {
@@ -124,39 +69,16 @@ body {
   width: 100%;
 }
 
-.technology {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: black;
-}
-
 .contenttext {
-  display: flex;
-  width: 100%;
   height: 500px;
-  text-align: center;
-  align-items: center;
 }
 
 .contenttext h2 {
-  width: 50%;
-  font-size: 40px;
-  padding-top: 40px;
   color: #3eafa8;
 }
 
 .contenttext p {
-  width: 50%;
-  text-align: start;
-  color: white;
   font-size: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .carousel {
@@ -164,44 +86,15 @@ body {
 }
 
 .treepart {
-  display: flex;
-  width: 100%;
   height: 500px;
-  background: white;
 }
 
 .partblue {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 100%;
   background: #3eafa8;
 }
 
-.partwhite {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 100%;
-  background: rgb(255, 255, 255);
-}
-
 .partgray {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 100%;
   background: rgb(75, 74, 74);
-}
-
-.contentblue {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 20px;
 }
 
 .contentblue h2 {
@@ -221,13 +114,7 @@ body {
 }
 
 .contentwhite {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   color: #3eafa8;
-  padding: 20px;
 }
 
 .contentwhite h2 {
@@ -245,16 +132,6 @@ body {
 .contentwhite img:hover {
   transform: scale(1.1);
   transition: 2s;
-}
-
-.contentgray {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff;
-  padding: 20px;
 }
 
 .contentgray h2 {
