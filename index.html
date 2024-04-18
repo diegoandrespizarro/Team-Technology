@@ -85,17 +85,17 @@
           </div>
         </div>
       </nav>
-      <div class="banner">
+      <div class="banner border-start border-black border-end border-3">
         <img src="./assets/BANNER.png" class="d-block w-100" alt="EnerViento" />
       </div>
     </header>
 
     <main
-      class="twopart d-flex w-100 border-start border-black border-end border-3"
+      class="twopart d-flex flex-wrap w-100 border-start border-black border-end border-3"
     >
-      <div class="part1 d-flex w-50 h-100">
+      <div class="part1">
         <div
-          class="content1 d-flex flex-column justify-content-center align-content-center text-center .m-3 .p-3 text-white"
+          class="content1 d-flex flex-column justify-content-center align-content-center text-center m-3 p-3 text-white"
         >
           <h2>¿QUIÉNES SOMOS?</h2>
           <p>
@@ -106,9 +106,9 @@
           </p>
         </div>
       </div>
-      <div class="part2 d-flex w-50 h-100 bg-dark">
+      <div class="part2 bg-dark">
         <div
-          class="content2 d-flex flex-column justify-content-center align-content-center text-center .m-3 .p-3"
+          class="content2 d-flex flex-column justify-content-center align-content-center text-center m-3 p-3"
         >
           <h2>TECNOLOGÍA ENERVIENTO</h2>
           <p>
@@ -149,21 +149,19 @@
       </div>
     </section>
     <section
-      class="technology d-block w-100 h-100 bg-dark text-white border-start border-black border-end border-3"
+      class="technology w-100 flex-wrap align-content-center border-start border-black border-end border-3"
     >
       <div
-        class="contenttext d-block justify-content-center text-center align-content-center"
+        class="contenttext justify-content-center text-center align-content-center"
       >
-        <h2 class="pt-5 m-3">FUNCIONAMIENTO Y ESTRUCTURA</h2>
-        <p class="m-4 text-white">
+        <h2>FUNCIONAMIENTO</h2>
+        <p>
           La tecnología eólica sin palas consiste en un cilindro fijo vertical
           colocado sobre una varilla elástica que se empotra en el suelo. El
           cilindro oscila en un rango de velocidad de viento, que posteriormente
           transforma la energía mecánica en electricidad con ayuda de un
           alternador. El cilindro exterior es rígido y está diseñado para
-          oscilar mientras permanece anclado a la varilla o núcleo. El
-          movimiento de la parte superior del cilindro es libre, por lo que es
-          en ese punto donde se produce la máxima oscilación.
+          oscilar mientras permanece anclado a la varilla o núcleo.
         </p>
       </div>
     </section>
@@ -257,24 +255,84 @@
         </div>
       </div>
     </section>
-    <section
-      class="technology d-block w-100 h-100 bg-dark text-white border-start border-black border-end border-3"
-    >
-      <div
-        class="contenttext d-flex flex-column text-center justify-content-center align-content-center"
-      >
-        <h2 class="text-animated ms-4 me-4 mb-1">
-          EL FUTURO EÓLICO LLEGÓ PARA QUEDARSE
-        </h2>
-      </div>
-    </section>
-    <div class="ratio ratio-16x9">
+    <div class="ratio ratio-16x9 border-start border-black border-end border-3">
       <iframe
         src="https://www.youtube.com/embed/T_1TOABY-is?si=rHG11Ah7Sc_bsRHH"
         title="EL FUTURO EÓLICO"
         allowfullscreen
       ></iframe>
     </div>
+    <section
+      class="locationmap d-flex bg-white border-start border-black border-end border-3"
+    >
+      <div id="carouselExampleDark" class="carousel carousel-dark slide w-75">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./assets/LOCATION1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="shadow-sm text-white">OFICINAS ENERVIENTO</h3>
+              <p class="text-white">
+                Av. del Libertador 7208, Cdad. Autónoma de Buenos Aires
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./assets/LOCATION2.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="shadow-sm text-white">CO-WORKING ENERVIENTO</h3>
+              <p class="text-white">
+                Italia 471, B1638 Vicente López, Provincia de Buenos Aires
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="locationtext w-25 p-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6525.194994958866!2d-58.45400099677915!3d-34.54748494999862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb4268441a75b%3A0x4d151c6a773d15d6!2sAv.%20del%20Libertador%207208%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1713440676433!5m2!1ses!2sar"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
