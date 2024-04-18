@@ -75,10 +75,13 @@ body {
 
 .contenttext h2 {
   color: #3eafa8;
+  font-size: 60px;
+  text-shadow: black 12px 0px 20px;
 }
 
 .contenttext p {
   font-size: 20px;
+  text-shadow: black 12px 0px 20px;
 }
 
 .carousel {
@@ -152,4 +155,13 @@ body {
 
 .cont-frame-text {
   font-size: 50px;
+}
+
+.text-animated {
+  font-size: 100px !important;
+  text-shadow: black 12px 0px 20px;
+}
+
+.technology {
+  background-image: url(./assets/BGAIR.png);
 }
