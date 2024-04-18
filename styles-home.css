@@ -6,6 +6,9 @@
 
 body {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .twopart {
@@ -160,8 +163,4 @@ body {
 .text-animated {
   font-size: 100px !important;
   text-shadow: black 12px 0px 20px;
-}
-
-.technology {
-  background-image: url(./assets/BGAIR.png);
 }
