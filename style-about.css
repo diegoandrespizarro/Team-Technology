@@ -26,21 +26,6 @@
   .descripcion{
     text-align:center;
   }
-  /*BOTON DENTRO DE CARDS*/
-  .button{
-    background-color: #9EBECB;
-    border-radius: 2px;
-    display: block;
-    padding: 16px;
-    text-align: center;
-    text-decoration: none;
-    
-  }
-  .button:hover{
-    background-color:#7296A4;
-    color:#E6F0F2;
-    display: block;
-  }
   .contenedor{
     width: 90%;
     max-width: 1200px;
