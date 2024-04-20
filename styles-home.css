@@ -12,12 +12,17 @@ body {
 }
 
 .twopart {
-  height: 500px;
   background: white;
 }
 
 .part1 {
   background: #3eafa8;
+  min-width: 250px;
+}
+
+.content1 {
+  flex: 1;
+  min-width: 250px;
 }
 
 .content1 h2 {
@@ -28,6 +33,15 @@ body {
 .content1 p {
   font-size: 20px;
   padding: 20px;
+}
+
+.part2 {
+  min-width: 250px;
+}
+
+.content2 {
+  flex: 1;
+  min-width: 250px;
 }
 
 .content2 h2 {
@@ -73,94 +87,37 @@ body {
 }
 
 .contenttext {
-  height: 500px;
+  background: #3eafa8;
 }
 
 .contenttext h2 {
-  color: #3eafa8;
-  font-size: 60px;
-  text-shadow: black 12px 0px 20px;
+  background-color: white;
+  font-size: 35px;
 }
 
 .contenttext p {
+  color: white;
+  margin: 10px;
+  padding: 50px;
   font-size: 20px;
-  text-shadow: black 12px 0px 20px;
 }
 
 .carousel {
   width: 100%;
 }
 
-.treepart {
-  height: 500px;
-}
-
 .partblue {
   background: #3eafa8;
 }
 
-.partgray {
-  background: rgb(75, 74, 74);
-}
-
-.contentblue h2 {
-  font-size: 30px;
-  padding: 5px;
-}
-
-.contentblue img {
+.partblue img {
+  padding: 10px;
   width: 200px;
   height: 200px;
   transition: 2s;
 }
 
-.contentblue img:hover {
+.partblue img:hover {
   transform: scale(1.1);
   transition: 2s;
-}
-
-.contentwhite {
-  color: #3eafa8;
-}
-
-.contentwhite h2 {
-  font-size: 30px;
-  padding: 5px;
-  margin-top: 19px;
-}
-
-.contentwhite img {
-  width: 180px;
-  height: 180px;
-  transition: 2s;
-}
-
-.contentwhite img:hover {
-  transform: scale(1.1);
-  transition: 2s;
-}
-
-.contentgray h2 {
-  font-size: 30px;
-  padding: 5px;
-}
-
-.contentgray img {
-  width: 200px;
-  height: 200px;
-  transition: 2s;
-}
-
-.contentgray img:hover {
-  transform: scale(1.1);
-  transition: 2s;
-}
-
-.cont-frame-text {
-  font-size: 50px;
-}
-
-.text-animated {
-  font-size: 100px !important;
-  text-shadow: black 12px 0px 20px;
 }
