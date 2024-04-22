@@ -1,20 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 .navbarLogo{
     background-color: #9ebecb;
-    box-shadow: 0px 5px 20px 5px #0000008c;   
+    box-shadow: 0px 5px 20px 5px #0000008c;
 }
 .bi-wind{
     font-size: 30px;
-    
 }
 .navbar .btnHambur{
     border: none;
 }
 .textSubnav{
     align-items: center;
-    font-size: 30px;
+    font-size: 48px;
+    margin-top: 10px;
+    a{
+    font-family: 'Roboto', sans-serif !important;
+    color: #fff !important;
+    }
+}
+.textSubnav li a:hover {
+    color: #369 !important;
+    font-size: 1.1em;
+    color: #fff;
+}
+.btn-close:hover {
+    transform: rotate(180deg);
+    transition: transform 0.4s ease;
+}
+#offcanvasNavbar{
+    width: 800px;
+    background-image: url('../assets/arreglonav3.jpg'); 
+    background-size: cover; 
+    background-position: center center;
     
 }
+.offcanvas .btn-close {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+
+
