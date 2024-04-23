@@ -86,19 +86,13 @@ body {
   width: 100%;
 }
 
-.contenttext {
-  background: #3eafa8;
-}
-
 .contenttext h2 {
-  background-color: white;
+  color: #3eafa8;
   font-size: 35px;
 }
 
 .contenttext p {
   color: white;
-  margin: 10px;
-  padding: 50px;
   font-size: 20px;
 }
 
