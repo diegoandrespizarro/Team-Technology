@@ -1,7 +1,12 @@
 .body{
   background-image: url(./assets/aboutfondo.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* ESTRUCTURA CARDS*/
 .card{
@@ -9,14 +14,14 @@
     transition: transform 0.25s;
     border-radius: 5px;
     --bs-card-spacer-x: 10px;
-    background-color:#1d1c1c;
+    background-color:#1c1d1d;
     margin-bottom: 10px;
     margin-top: 40px;
   }
   .card-body{
     padding: 20px 15px;
     text-align: justify;
-    background-color: #253950;
+    background-color: #2e4157;
   }
   .card:hover{
     --escala: 1.1;
