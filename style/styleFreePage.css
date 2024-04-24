@@ -21,41 +21,196 @@ margin: 0;
 padding: 0px;
 width: 100%;
 height: 100%;}
+/* 1sect */
 
 .main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 85vh;
-    padding: 0 5vw;
-    background-color: powderblue;
+    height: 103vh;
+    padding: 0 1.3vw;
+    margin: 0%;
 }
+
 .main-container div {
     height: 100%;
     width: 50%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
-.main-container .img-container img {
-    max-width: 100%;
-    object-fit: contain;
-}
+
 .main-content {
 
-    color: rgb(0, 0, 0);
+    color: #3eafa8;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 , 20%;
+
 }
+
 .main-content p{display: flex;
-font-size: 20px;
-flex-direction: column;
-justify-content: center;
-margin-top: 35px;}
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+}
+
 .main-content h1 {
     font-size: 42px;
     font-weight: 600;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
+.main-container .slider-box{
+    max-width: 100%;
+    object-fit: contain;
+}
+.main-container .slider-box2{
+    max-width: 100%;
+    object-fit: contain;
+}
+.main-container .slider-box3{
+    max-width: 100%;
+    object-fit: contain;
+}
+/* 2sect */
+.main-content2 {
+
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 , 20%;
+}
+.main-content2 p{display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;}
+
+.main-content2 h1 {
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-decoration: underline;
+}
+/* 3sect */
+.main-content3 {
+
+    color: #3eafa8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0 , 10%;
+
+}
+.main-content3 h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 75px;
+    text-decoration: underline;
+}
+.main-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    padding: 0 5vw;
+    margin: 0%;
+}
+.main-container3 div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.main-content3 p{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 55px;}
+.main-content3 li{
+    font-size: 28px;
+}
+.gradientback {
+
+background:linear-gradient(#212529 100%, #3eafa8);
+  }
+  .gradientback2 {
+
+background:linear-gradient( #3eafa8 100%, #212529);
+  }
+  .gradientback3 {
+
+background:linear-gradient(#212529 100%, #3eafa8 );
+  }
+.slider-box {
+    width: 100%;
+    height: 100%;
+    background: url(/page/assets-freepage/cilindro.png);
+    margin: 200px auto;
+    animation: slide 4s infinite alternate;
+
+}
+@keyframes slide {
+
+  25%{background: url(/page/assets-freepage/cilindro.png);}
+  50%{background: url(/page/assets-freepage/cilindro1.png);}
+  75%{background: url(/page/assets-freepage/cilindro2.png);}
+  100%{background: url(/page/assets-freepage/cilindro3.png);}
+  }
+  .slider-box2 {
+    width: 100%;
+    height: 100%;
+    background: url(/page/assets-freepage/captacion1.png);
+    margin: 200px auto;
+    animation: slide2 4s infinite alternate;
+
+}
+@keyframes slide2 {
+
+  25%{background: url(/page/assets-freepage/captacion1.png);}
+  50%{background: url(/page/assets-freepage/captacion2.png);}
+  75%{background: url(/page/assets-freepage/captacion3.png);}
+  100%{background: url(/page/assets-freepage/captacion1.png);}
+  }
+  .slider-box3 {
+    width: 100%;
+    height: 100%;
+    background: url(/page/assets-freepage/conversion1.png);
+    margin: 100px auto;
+    animation: slide3 6s infinite alternate;
+
+}
+@keyframes slide3 {
+
+  25%{background: url(/page/assets-freepage/conversion1.png);}
+  50%{background: url(/page/assets-freepage/conversion2.png);}
+  75%{background: url(/page/assets-freepage/conversion3.png);}
+  100%{background: url(/page/assets-freepage/conversion1.png);}
+  }
+.acordeon-content {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(#212529, #3eafa8);
+}
+.button-up {position: sticky;
+    width: 60px;
+    height: 60px;
+    top: 90%;
+    left: 90%;
+    transform: rotate(180deg);
+    background-color: black;
+    border-radius: 50%;
+}
+.button-up a{
+    text-decoration: none;
+color: aliceblue;
+padding: 10px;
+top: -10px;
+left: 20px;}

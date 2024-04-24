@@ -31,9 +31,11 @@
   .contenedor{
     width: 90%;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 30px auto;
+    margin-top: 90px;
   }
-  .text-body-secondary-descripcion{
-    --bs-text-opacity: 1;
-    color: white;
-  }
+.text-body-secondary-descripcion{
+  --bs-text-opacity: 1;
+  color: white;
+
+}
