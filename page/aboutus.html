@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="../style-about.css">
     <title>Nosotros</title>
   </head>
-  <body>
+  <body class="body">
+    
        <!-- Nanbar -->
-       <nav class="navbar navbarLogo">
+       <header></header>
+       <nav class="navbar navbarLogo fixed-top">
         <div class="container-fluid accordion">
           <a class="navbar-brand textLogo"  href="../index.html"><i class="bi bi-wind">EnerViento</i></a>
           <button class="navbar-toggler btnHambur" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -34,11 +36,14 @@
           </div>
         </div>
     </nav>
+  </header>
     <!-- ends Navbar -->
-    <!--SECTION-->
-    <div class="row row-cols-1 row-cols-md-3 g-4 contenedor">
+    
+    <section>
+      <div class="row row-cols-1 row-cols-md-3 g-4 contenedor">
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100"><div class="title">
+        </div>
           <img src="./assets/diego-pizarro.jpeg" class="card-img-top imagen" alt="...">
           <div class="card-body">
             <h5 class="card-title descripcion">DIEGO PIZARRO</h5>
@@ -46,10 +51,11 @@
           </p>
           </div>
           <div class="card-footer descripcion">
-            <small class="text-body-secondary">95i-Team Technology</small>
+            <small class="text-body-secondary-descripcion">95i-Team Technology</small>
           </div>
         </div>
       </div>
+      
       <div class="col">
         <div class="card h-100">
           <img src="./assets/agostina-suarez.jpeg" class="card-img-top imagen" alt="...">
@@ -59,7 +65,7 @@
           </p>
           </div>
           <div class="card-footer descripcion">
-            <small class="text-body-secondary">95i-Team Technology</small>
+            <small class="text-body-secondary-descripcion">95i-Team Technology</small>
           </div>
         </div>
       </div>
@@ -72,7 +78,7 @@
             <p>
           </div>
           <div class="card-footer descripcion">
-            <small class="text-body-secondary">95i-Team Technology</small>
+            <small class="text-body-secondary-descripcion">95i-Team Technology</small>
           </div>
         </div>
       </div>
@@ -86,7 +92,7 @@
             <p class="card-text descripcion">Mi objetivo primordial es capacitarme y prepararme para convertirme en un experimentado desarrolador Senior y no dejar de aprender cosas nuevas. Eso es lo que me motiva día a día , la constancia y dedicación son la base y fundamento de todo.</p>
           </div>
           <div class="card-footer descripcion">
-            <small class="text-body-secondary">95i-Team Technology</small>
+            <small class="text-body-secondary-descripcion">95i-Team Technology</small>
           </div>
         </div>
       </div>
@@ -98,7 +104,7 @@
             <p class="card-text descripcion">Mi meta es alistarme para construir un futuro siendo Nomada Digital, asi mismo dado el caso poder ser capaz de  cumplir objetivos en un lapso de tiempo reducido. De forma remota y sin importar desde que lugar del planeta lo este haciendo.</p>
           </div>
           <div class="card-footer descripcion">
-            <small class="text-body-secondary">95i-Team Technology</small>
+            <small class="text-body-secondary-descripcion">95i-Team Technology</small>
           </div>
         </div>
       </div>
@@ -111,29 +117,30 @@
           </p>
           </div>
           <div class="card-footer descripcion">
-            <small class="text-body-secondary">95i-Team Technology</small>
+            <small class="text-body-secondary-descripcion">95i-Team Technology</small>
           </div>
         </div>
       </div>
     </div>
+  </section>
       <!--FORMS-->
     <div class="divForm"> 
         <form action="#" target="" method="get" name="formDatosPersonales">
             <h2 class="textContacto">CONTACTO</h2>
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre"/>
         
             <label for="apellidos">Apellidos</label>
-            <input type="text" name="apellidos" id="apellidos" placeholder="Apellido"/>
+            <input type="text" name="apellidos" id="apellidos" placeholder="apellido"/>
         
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="email" required />
         
             <label for="asunto">Asunto</label>
-            <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+            <input type ="text" name="asunto" id="asunto" placeholder="asunto"/>
         
             <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres tu consulta" maxlength="300"></textarea>
+            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente tu consulta" maxlength="300"></textarea>
             <div class="check">
               <input type="checkbox" id="cbox2" value="second_checkbox" />
               <label for="cbox2" class="checkBox">Acepto los términos y condiciones</label>
@@ -151,7 +158,7 @@
                 <i class="bi bi-wind"></i>ENERVIENTO
               </h4>
               <p>
-                Somos un equipo con sede en Argentina de desarrollo y produccion
+                Somos un Equipo representante de Vortex en Argentina en pleno desarrollo y produccion
                 desde la idea hasta el producto final de una forma
                 revolucionaria de energía eólica.
               </p>
@@ -175,7 +182,7 @@
                   target="_blank"
                   class="text-reset link-info bi bi-github text-decoration-none"
                 >
-                  Lizandro Vera</a
+                  Lisandro Vera</a
                 >
               </p>
               <p>
@@ -234,7 +241,7 @@
                   target="_blank"
                   class="text-reset link-success bi bi-whatsapp text-decoration-none"
                 >
-                  Lizandro Vera</a
+                  Lisandro Vera</a
                 >
               </p>
               <p>
@@ -292,7 +299,7 @@
                   target="_blank"
                   class="text-reset link-primary bi bi-envelope-at-fill text-decoration-none"
                 >
-                  Lizandro Vera</a
+                  Lisandro Vera</a
                 >
               </p>
               <p>
@@ -339,8 +346,8 @@
         class="text-center p-4"
         style="background-color: rgba(209, 210, 210, 0.901)"
       >
-        © 2024 Copyright:
-        <a class="text-reset fw-bold" href="#!">enerviento.com.ar</a>
+        © 2024 Derechos de autor:
+        <a class="text-reset fw-bold text text-decoration-none" href="https://enerviento.netlify.app/" target="_blank">enerviento.netlify.app</a>
       </div>
     </footer>
 
