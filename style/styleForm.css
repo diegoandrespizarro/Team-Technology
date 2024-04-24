@@ -1,5 +1,6 @@
 .textContacto{
     text-align: center;
+	color: white;
 }
 *{box-sizing:border-box;}
 form{
@@ -9,7 +10,8 @@ form{
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#9ab9c6;
+	background: linear-gradient(to bottom, #00435f, #002d40);
+	/* background-color:#9ab9c6; */
 	margin-top: 100px;
 	box-shadow: 16px 14px 20px #0000008c;
 	border: #7296a4 6px outset;  
@@ -18,6 +20,7 @@ form label{
 	width:100%;
 	font-weight:bold;
 	display:block;
+	color: white;
 }
 form input[type="text"],
 form input[type="email"]{
