@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="../style-about.css">
     <title>Nosotros</title>
   </head>
-  <body>
+  <body class="body">
+    
        <!-- Nanbar -->
+       <header></header>
        <nav class="navbar navbarLogo fixed-top">
         <div class="container-fluid accordion">
           <a class="navbar-brand textLogo"  href="../index.html"><i class="bi bi-wind">EnerViento</i></a>
@@ -34,11 +36,14 @@
           </div>
         </div>
     </nav>
+  </header>
     <!-- ends Navbar -->
-    <!--SECTION-->
-    <div class="row row-cols-1 row-cols-md-3 g-4 contenedor">
+    
+    <section>
+      <div class="row row-cols-1 row-cols-md-3 g-4 contenedor">
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100"><div class="title">
+        </div>
           <img src="./assets/diego-pizarro.jpeg" class="card-img-top imagen" alt="...">
           <div class="card-body">
             <h5 class="card-title descripcion">DIEGO PIZARRO</h5>
@@ -50,6 +55,7 @@
           </div>
         </div>
       </div>
+      
       <div class="col">
         <div class="card h-100">
           <img src="./assets/agostina-suarez.jpeg" class="card-img-top imagen" alt="...">
@@ -116,6 +122,7 @@
         </div>
       </div>
     </div>
+  </section>
       <!--FORMS-->
     <div class="divForm"> 
         <form action="#" target="" method="get" name="formDatosPersonales">
