@@ -8,7 +8,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .twopart {
@@ -16,7 +15,7 @@ body {
 }
 
 .part1 {
-  background: #3eafa8;
+  background: #00415d;
   min-width: 250px;
 }
 
@@ -31,8 +30,9 @@ body {
 }
 
 .content1 p {
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
+  animation: fade-up 0.4s;
 }
 
 .part2 {
@@ -45,15 +45,15 @@ body {
 }
 
 .content2 h2 {
-  color: #3eafa8;
+  color: #00415d;
   font-size: 50px;
   padding: 5px;
 }
 
 .content2 p {
-  color: #3eafa8;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
+  animation: fade-up 0.4s;
 }
 
 .gal img {
@@ -86,14 +86,19 @@ body {
   width: 100%;
 }
 
+.contenttext {
+  background: #00415d;
+}
+
 .contenttext h2 {
-  color: #3eafa8;
-  font-size: 35px;
+  color: white;
+  font-size: 50px;
 }
 
 .contenttext p {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  animation: fade-up 0.4s;
 }
 
 .carousel {
@@ -101,7 +106,7 @@ body {
 }
 
 .partblue {
-  background: #3eafa8;
+  background: #00415d;
 }
 
 .partblue img {
@@ -114,4 +119,16 @@ body {
 .partblue img:hover {
   transform: scale(1.1);
   transition: 2s;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
 }
