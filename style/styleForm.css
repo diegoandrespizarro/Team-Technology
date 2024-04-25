@@ -63,3 +63,42 @@ textarea{
     width: 100%;
     padding:10px;
 } 
+
+/* formulario acordeon */
+.contenedor-acordeon{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    background:linear-gradient( #3eafa8 , #212529 50%);
+    border-radius: 10px;
+    box-shadow: 16px 14px 20px #243235;
+    padding: 3px 10px;
+    border: #2e6261 6px outset;
+}
+.accordion-item{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 10px #243235;
+    border: #2e6261 4px outset;
+
+}
+.contenedor-acordeon h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.accordion-button{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.acordeon-content {
+    margin: 0;
+    padding: 0;
+    padding-bottom:100px;
+    background:linear-gradient(#212529, #3eafa8);
+}
