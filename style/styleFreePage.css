@@ -1,35 +1,4 @@
-.contenedor-acordeon{
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    margin-top: 80px;
-    padding: 30px;
-    background:linear-gradient( #3eafa8 , #212529 50%);
-    border-radius: 10px;
-    box-shadow: 16px 14px 20px #243235;
-    padding: 3px 10px;
-    border: #2e6261 6px outset;
-}
-.accordion-item{
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 7px 10px #243235;
-    border: #2e6261 4px outset;
 
-}
-.contenedor-acordeon h2{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 35px;
-    padding: 10px;
-    font-family: sans-serif;
-}
-.accordion-button{
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
-}
-/* fin css acordeon */
 .bann-container {
 display: flex;
 margin: 0;
@@ -177,54 +146,49 @@ background:linear-gradient(#212529 100%, #3eafa8 );
 .slider-box {
     width: 100%;
     height: 100%;
-    background: url(/page/assets-freepage/cilindro.png);
+    background: url(../assets/assets-tecnologia/cilindro.png);
     margin: 200px auto;
     animation: slide 4s infinite alternate;
 
 }
 @keyframes slide {
 
-  25%{background: url(/page/assets-freepage/cilindro.png);}
-  50%{background: url(/page/assets-freepage/cilindro1.png);}
-  75%{background: url(/page/assets-freepage/cilindro2.png);}
-  100%{background: url(/page/assets-freepage/cilindro3.png);}
+  25%{background: url(../assets/assets-tecnologia/cilindro.png);}
+  50%{background: url(../assets/assets-tecnologia/cilindro1.png);}
+  75%{background: url(../assets/assets-tecnologia/cilindro2.png);}
+  100%{background: url(../assets/assets-tecnologia/cilindro3.png);}
   }
   .slider-box2 {
     width: 100%;
     height: 100%;
-    background: url(/page/assets-freepage/captacion1.png);
+    background: url(../assets/assets-tecnologia/captacion1.png);
     margin: 200px auto;
     animation: slide2 4s infinite alternate;
 
 }
 @keyframes slide2 {
 
-  25%{background: url(/page/assets-freepage/captacion1.png);}
-  50%{background: url(/page/assets-freepage/captacion2.png);}
-  75%{background: url(/page/assets-freepage/captacion3.png);}
-  100%{background: url(/page/assets-freepage/captacion1.png);}
+  25%{background: url(../assets/assets-tecnologia/captacion1.png);}
+  50%{background: url(../assets/assets-tecnologia/captacion2.png);}
+  75%{background: url(../assets/assets-tecnologia/captacion3.png);}
+  100%{background: url(../assets/assets-tecnologia/captacion1.png);}
   }
   .slider-box3 {
     width: 100%;
     height: 100%;
-    background: url(/page/assets-freepage/conversion1.png);
+    background: url(../assets/assets-tecnologia/conversion1.png);
     margin: 100px auto;
     animation: slide3 6s infinite alternate;
 
 }
 @keyframes slide3 {
 
-  25%{background: url(/page/assets-freepage/conversion1.png);}
-  50%{background: url(/page/assets-freepage/conversion2.png);}
-  75%{background: url(/page/assets-freepage/conversion3.png);}
-  100%{background: url(/page/assets-freepage/conversion1.png);}
+  25%{background: url(../assets/assets-tecnologia/conversion1.png);}
+  50%{background: url(../assets/assets-tecnologia/conversion2.png);}
+  75%{background: url(../assets/assets-tecnologia/conversion3.png);}
+  100%{background: url(../assets/assets-tecnologia/conversion1.png);}
   }
-  .acordeon-content {
-    margin: 0;
-    padding: 0;
-    padding-bottom:100px;
-    background:linear-gradient(#212529, #3eafa8);
-}
+
 .button-up {position: sticky;
     width: 60px;
     height: 60px;
