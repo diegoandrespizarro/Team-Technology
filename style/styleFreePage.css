@@ -8,7 +8,6 @@ height: 100%;
 margin-top: 50px;
 }
 /* 1sect */
-
 .main-container {
     display: flex;
     justify-content: space-around;
@@ -16,11 +15,9 @@ margin-top: 50px;
     height: 103vh;
     padding: 0 1.3vw;
     margin: 0%;
-
 }
 .image-cont img{
     margin-top: 50px;
-
     object-fit: cover;
 }
 .main-container div {
@@ -30,9 +27,7 @@ margin-top: 50px;
     margin: 2px;
     justify-content: center;
 }
-
 .main-content {
-
     color: #3eafa8;
     display: flex;
     flex-direction: column;
@@ -40,7 +35,6 @@ margin-top: 50px;
     align-items: center;
     padding: 0 , 20%;
 }
-
 .main-content p{display: flex;
     font-size: 20px;
     flex-direction: column;
@@ -50,7 +44,6 @@ margin-top: 50px;
     padding: 10px;
     text-align: center;
 }
-
 .main-content h1 {
     font-size: 42px;
     font-weight: 600;
@@ -61,7 +54,6 @@ margin-top: 50px;
 .main-container .slider-box{
     max-width: 100%;
     object-fit: contain;
-
 }
 .main-container .slider-box2{
     max-width: 100%;
@@ -73,14 +65,12 @@ margin-top: 50px;
 }
 /* 2sect */
 .main-content2 {
-
     color: #212529;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 0 , 20%;
-
 }
 .main-content2 p{display: flex;
     font-size: 20px;
@@ -90,7 +80,6 @@ margin-top: 50px;
     margin-top: 35px;
     margin:10px ;
     }
-
 .main-content2 h1 {
         font-size: 42px;
         font-weight: 600;
@@ -100,21 +89,18 @@ margin-top: 50px;
 }
 /* 3sect */
 .main-content3 {
-
     color: #3eafa8;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
     padding: 0 , 10%;
-
 }
 .main-content3 h1 {
     font-size: 42px;
     font-weight: 600;
     margin-bottom: 75px;
     text-decoration: underline;
-    
 }
 .main-container3 {
     display: flex;
@@ -122,8 +108,7 @@ margin-top: 50px;
     align-items: center;
     height: 90vh;
     padding: 0 5vw;
-    margin: 0%;
-    
+    margin: 0%;  
 }
 .main-container3 img{
     display: flex;
@@ -150,62 +135,41 @@ margin-top: 50px;
     margin-top: 60px;
 }
 .gradientback {
-
 background:linear-gradient(#212529 100%, #3eafa8);
   }
   .gradientback2 {
 background:linear-gradient( #3eafa8 100%, #212529);
   }
   .gradientback3 {
-
 background:linear-gradient(#212529 100%, #3eafa8 );
   }
 .slider-box {
     width: 100%;
     height: 100%;
-    background: url(../assets/assets-tecnologia/cilindro.png);
     margin: 200px auto;
-    animation: slide 4s infinite alternate;
-
 }
-@keyframes slide {
-  25%{background: url(../assets/assets-tecnologia/cilindro.png);}
-  50%{background: url(../assets/assets-tecnologia/cilindro1.png);}
-  75%{background: url(../assets/assets-tecnologia/cilindro2.png);}
-  100%{background: url(../assets/assets-tecnologia/cilindro3.png);}
-  }
+.slider-box  img{
+    width: 100%;
+    height: 100vh;
+}
   .slider-box2 {
     width: 100%;
     height: 100%;
-    background: url(../assets/assets-tecnologia/captacion1.png);
-    margin: 200px auto;
-    animation: slide2 4s infinite alternate;
-
 }
-@keyframes slide2 {
-
-  25%{background: url(../assets/assets-tecnologia/captacion1.png);}
-  50%{background: url(../assets/assets-tecnologia/captacion2.png);}
-  75%{background: url(../assets/assets-tecnologia/captacion3.png);}
-  100%{background: url(../assets/assets-tecnologia/captacion1.png);}
-  }
+.slider-box2  img{
+    width: 100%;
+    height: 100vh;
+}
   .slider-box3 {
     width: 100%;
     height: 100%;
-    background: url(../assets/assets-tecnologia/conversion1.png);
     margin: 100px auto;
-    animation: slide3 5s infinite alternate;
-
 }
-
-@keyframes slide3 {
-
-  25%{background: url(../assets/assets-tecnologia/conversion1.png);}
-  50%{background: url(../assets/assets-tecnologia/conversion2.png);}
-  75%{background: url(../assets/assets-tecnologia/conversion3.png);}
-  100%{background: url(../assets/assets-tecnologia/conversion1.png);}
-  }
-
+.slider-box3  img{
+    width: 100%;
+    height: 100vh;
+}
+/* boton para volver  */
 .button-up {position: sticky;
     width: 60px;
     height: 60px;
@@ -215,6 +179,7 @@ background:linear-gradient(#212529 100%, #3eafa8 );
     background-color:#19857d;
     border-radius: 50%;
     transition: 300ms;
+    margin-bottom: 10px;
 }
 .button-up a{
 position: absolute;
@@ -228,6 +193,7 @@ left: 10px;}
     transition: 300ms;
     border-radius: 5px;
 }
+/* responsive */
 @media(max-width: 992px){
     .bann-container{
         margin-top: 80px;
@@ -267,6 +233,31 @@ left: 10px;}
         margin-top: 60px;
         font-size: 15px;
     }
+    .slider-box {
+        width: 100%;
+        height: 100vh;
+    }
+    .slider-box  img{
+        width: 100%;
+        height: 70vh;
+    }
+      .slider-box2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .slider-box2  img{
+        width: 100%;
+        height: 70vh;
+    }
+      .slider-box3 {
+        width: 100%;
+        height: 100%;
+        margin: 100px auto;
+    }
+    .slider-box3  img{
+        width: 100%;
+        height: 70vh;
+    }
 }
 @media(max-width: 768px){
     .bann-container{
@@ -299,12 +290,98 @@ left: 10px;}
         text-align: center;
         font-size: 30px;
     }
-
     .main-content3 p{
         font-size: 10px;
     }
     .main-content3 li{
         
         font-size: 15px;
+    }
+    .slider-box {
+        width: 100%;
+        height: 100vh;
+    }
+    .slider-box  img{
+        width: 100%;
+        height: 60vh;
+    }
+      .slider-box2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .slider-box2  img{
+        width: 100%;
+        height: 60vh;
+    }
+      .slider-box3 {
+        width: 100%;
+        height: 100%;
+        margin: 100px auto;
+    }
+    .slider-box3  img{
+        width: 100%;
+        height: 60vh;
+    }
+}
+@media(max-width: 440px){
+    .bann-container{
+        margin-top: 80px;
+        width: 100%;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+	.content h1{
+		font-size: 30px;
+		-webkit-text-stroke: 1px white;
+		color: transparent;
+	}
+	.main-content p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .main-container div {
+        width: 80%;
+    }
+    /* sect capt de enrgia */
+    .main-content2 p{
+        font-size: 15px;
+    }
+    .main-content2 h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .main-content3 p{
+        font-size: 12px;
+    }
+    .main-content3 li{
+        font-size: 10px;
+    }
+    .slider-box {
+        width: 100%;
+        height: 100vh;
+    }
+    .slider-box  img{
+        width: 100%;
+        height: 50vh;
+    }
+      .slider-box2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .slider-box2  img{
+        width: 100%;
+        height: 50vh;
+    }
+      .slider-box3 {
+        width: 100%;
+        height: 100%;
+    }
+    .slider-box3  img{
+        width: 100%;
+        height: 40vh;
     }
 }
