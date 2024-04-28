@@ -6,8 +6,6 @@
 
 body {
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .twopart {
@@ -16,42 +14,26 @@ body {
 
 .part1 {
   background: #00415d;
-  min-width: 250px;
-}
-
-.content1 {
-  flex: 1;
-  min-width: 250px;
 }
 
 .content1 h2 {
-  font-size: 50px;
+  font-size: 33px;
   padding: 5px;
 }
 
 .content1 p {
-  font-size: 30px;
+  font-size: 23px;
   padding: 20px;
   animation: fade-up 0.4s;
 }
 
-.part2 {
-  min-width: 250px;
-}
-
-.content2 {
-  flex: 1;
-  min-width: 250px;
-}
-
 .content2 h2 {
-  color: #00415d;
-  font-size: 50px;
+  font-size: 33px;
   padding: 5px;
 }
 
 .content2 p {
-  font-size: 30px;
+  font-size: 23px;
   padding: 20px;
   animation: fade-up 0.4s;
 }
@@ -78,7 +60,7 @@ body {
 .hover h2 {
   color: white;
   text-shadow: 1px 1 px 1px black;
-  font-size: 2.5em;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -92,12 +74,12 @@ body {
 
 .contenttext h2 {
   color: white;
-  font-size: 50px;
+  font-size: 33px;
 }
 
 .contenttext p {
   color: white;
-  font-size: 30px;
+  font-size: 23px;
   animation: fade-up 0.4s;
 }
 
@@ -121,6 +103,23 @@ body {
   transition: 2s;
 }
 
+@media (max-width: 1024px) {
+  .gal:hover .hover {
+    width: 0%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .partblue img:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .banner {
+    margin-top: 50px;
+  }
+}
 @keyframes fade-up {
   0% {
     opacity: 0;
