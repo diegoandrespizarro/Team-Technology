@@ -11,7 +11,7 @@
     <title>EnerViento</title>
     <link rel="stylesheet" href="./style/whatsapp.css">
   </head>
-  <body class="bg-white">
+  <body class="w-100 bg-white">
     <header>
       <!-- Navbar -->
       <nav class="navbar navbarLogo fixed-top ">
@@ -49,41 +49,45 @@
       </nav>
       <!-- ends navbar -->
     </header>
-    <main
-      class="twopart mt-5  pt-4 d-flex flex-wrap"
-    >
-      <div class="part1">
-        <div
-          class="content1 d-flex flex-column justify-content-center align-content-center text-center m-3 p-3 text-white"
-        >
-          <h2>¿QUIÉNES SOMOS?</h2>
-          <p class="fw-bold">
+    <main>
+      <section class="banner mt-5">
+        <img src="./assets/assets-home/BANNER.png" width="100%" alt="banner">
+      </section>
+      <section
+      class="twopart d-flex flex-wrap">
+        <div class="part1">
+          <div
+          class="content1 text-center m-3 p-3 text-white"
+          >
+            <h2>¿QUIÉNES SOMOS?</h2>
+            <p>
             EnerViento es una empresa que trae un avance tecnólogico como la
             energía eólica por oscilación, nuestra tarea consiste en la
             implementación de aerogeneradores sin aspas que actuan mediante
             resonancia aeroelástica.
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="part2 bg-dark">
-        <div
-          class="content2 d-flex flex-column justify-content-center align-content-center text-center m-3 p-3"
-        >
-          <h2 class="text-white">TECNOLOGÍA ENERVIENTO</h2>
-          <p class="fw-bold text-white">
+        <div class="part2 bg-dark">
+          <div
+          class="content2 text-center m-3 p-3 text-white"
+          >
+            <h2>TECNOLOGÍA ENERVIENTO</h2>
+            <p>
             Es un aerogenerador de resonancia inducida por vorticidad, una nueva
             clase de generador eólico. La innovación de nuestra empresa proviene
             de su inusual geometría y forma de aprovechar la energía por
             vibración con mayor eficacia.
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
-    <section
-      class="cont d-flex w-100 justify-content-center bg-white p-5 "
+    <article
+      class="cont d-flex w-100 justify-content-center bg-black p-5 "
     >
       <div
-        class="gal justify-content-center w-100 overflow-hidden position-relative border border-2 border-black"
+        class="gal justify-content-center w-100 overflow-hidden position-relative border border-2 border-white"
       >
         <img src="./assets/assets-home/gallery1.png" alt="photo 1" />
         <div class="hover">
@@ -91,7 +95,7 @@
         </div>
       </div>
       <div
-      class="gal justify-content-center w-100 overflow-hidden position-relative border-bottom border-top border-2 border-black"
+      class="gal justify-content-center w-100 overflow-hidden position-relative border-bottom border-top border-2 border-white"
     >
         <img src="./assets/assets-home/gallery2.png" alt="photo 2" />
         <div class="hover">
@@ -99,31 +103,26 @@
         </div>
       </div>
       <div
-        class="gal justify-content-center w-100 overflow-hidden position-relative border border-2 border-black"
+        class="gal justify-content-center w-100 overflow-hidden position-relative border border-2 border-white"
       >
         <img src="./assets/assets-home/gallery3.png" alt="photo 3" />
         <div class="hover">
           <h2>MENOS COSTO</h2>
         </div>
       </div>
-    </section>
-    <section
-      class="technology w-100 align-items-center"
-    >
-      <div
-        class="contenttext justify-content-center text-center align-content-center pb-5"
+    </article>
+      <section
+        class="contenttext text-center pb-5"
       >
       <h2 class="pt-5">¿EN QUÉ CONSISTE?</h2>
-        <p class="text-white fw-bold pt-3 pb-4 pe-5 ps-5" >
-          La tecnología eólica sin palas consiste en un cilindro fijo vertical
+        <p class="text-white pt-3 pb-4 pe-5 ps-5" >
+          La tecnología eólica sin aspas consiste en un cilindro fijo vertical
           colocado sobre una varilla elástica que se empotra en el suelo, el cual oscila en un rango de velocidad de viento, que posteriormente
           transforma la energía mecánica en electricidad con ayuda de un
-          alternador. El cilindro exterior es rígido y está diseñado para
-          oscilar mientras permanece anclado a la varilla o núcleo.
+          alternador.
         </p>
         <a class="bg-dark text-white py-2 px-5 m-2 border rounded text-decoration-none fw-bold" href="./page/tecnologia.html">Saber más</a>
-      </div>
-    </section>
+      </section>
     <section class="carousel">
       <div
         id="carouselExampleAutoplaying"
@@ -173,48 +172,44 @@
         </button>
       </div>
     </section>
-    <section
+    <article
       class="treepart w-100 d-flex flex-wrap bg-white"
     >
       <div
-        class="partblue bg-dark col align-content-center justify-content-center text-center "
+        class="partblue bg-dark col text-center "
       >
         <img src="./assets/assets-home/BENEFIT3.png" alt="SILENCIOSO" />
-        <h2 class="text-white p-4">MÁS SILENCIOSO</h2>
+        <h2 class="text-black p-4">MÁS SILENCIOSO</h2>
       </div>
       <div
-        class="partblue col align-content-center justify-content-center text-center p-0"
+        class="partblue col text-center "
       >
         <img src="./assets/assets-home/BENEFIT2.png" alt="MANTENIMIENTO" />
         <h2 class="p-4 text-white">MENOR MANTENIMIENTO</h2>
       </div>
-      <div class="partblue col bg-dark justify-content-center text-center p-0">
+      <div class="partblue col bg-white text-center">
         <img src="./assets/assets-home/BENEFIT1.png" alt="SEGURIDAD" />
-        <h2 class="text-white p-4">MÁS SEGURO</h2>
+        <h2 class="text-black p-4">MÁS SEGURO</h2>
       </div>
-    </section>
-    <section class="w-100 p-5">
-      <div class="ratio ratio-16x9 border border-2 border-black">
+    </article>
+    <article class="w-100 p-5 bg-black">
+      <div class=" ratio ratio-16x9 border border-2 border-white">
         <iframe
         src="https://www.youtube.com/embed/T_1TOABY-is?si=rHG11Ah7Sc_bsRHH"
         title="EL FUTURO EÓLICO"
         allowfullscreen
         ></iframe>
       </div>
-    </section>
-    <section
-      class="technology w-100 align-items-center"
-    >
-      <div
-        class="contenttext justify-content-center text-center align-content-center pb-5"
+    </article>
+      <section
+        class="contenttext text-center pb-5"
       >
       <h2 class="pt-5">¿Dónde encontrarnos?</h2>
-        <p class="text-white fw-bold pt-3 pb-4 pe-5 ps-5" >
+        <p class="text-white pt-3 pb-4 pe-5 ps-5" >
           Si quiere comunicarse con nosotros puede llegarse por el CO-WORKING de EnerViento situado en Av. del Libertador 7208, Cdad. Autónoma de Buenos Aires con cita previa o también puede comunicarse a los números de contacto para acordar una reunión.
         </p>
-        <a class="btn bg-dark text-white py-2 px-5 m-2 border rounded fw-bold" href="#contact" role="button">Contactarme</a>
-      </div>
-    </section>
+        <a class="btn bg-dark text-white py-2 px-5 m-2 border rounded fw-bold" href="#contact" role="button">Contactarnos</a>
+      </section>
     <section
     class="locationmap d-flex bg-white"
   >
