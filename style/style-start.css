@@ -85,14 +85,12 @@ button:hover {
     .banner video {
         width: 240%;
         height: auto;
-        border: solid 2px red;
     }
 }
 @media (max-width: 860px) {
     .banner video {
         width: 230%;
         height: auto;
-        
     }
 }
 @media (max-width: 690px) {
