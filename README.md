@@ -45,4 +45,3 @@ Nuestro principal objetivo al crear esta página web mostarle al público sobre 
 ¡Gracias por visitar nuestro proyecto EnerViento! 
 
 
-commits: README con secciones completas sobre el proyecto EnerViento: equipo, tecnologías, diseño responsivo, despliegue, objetivo y mejoras.
