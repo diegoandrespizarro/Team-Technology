@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* LOGO */
 .navbarLogo{
     background-color: rgb(212,212,212);
     box-shadow: 0px 5px 20px 5px #0000008c;
@@ -12,9 +13,11 @@
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+/* BTN SUBMENU */
 .navbar .btnHambur{
     border: none;
 }
+/* TEXT SUBMENU */
 .textSubnav{
     align-items: center;
     font-size: 48px;
@@ -24,6 +27,7 @@
     color: #fff !important;
     }
 }
+/* HOVER EN TEXT SUBMENU */
 .textSubnav li a:hover {
     color: #369 !important;
     font-size: 1.1em;
@@ -33,6 +37,7 @@
     transform: rotate(180deg);
     transition: transform 0.4s ease;
 }
+/* FOTO SUBMENU */
 #offcanvasNavbar{
     width: 750px;
     background-image: url('../assets/assets-home/ENERVIENTO-RESPONSIVE.png'); 
@@ -40,6 +45,7 @@
     background-position: center center;
     border: none;
 }
+/* BTN PARA CERRAR SUBMENU */
 .offcanvas .btn-close {
     position: absolute;
     top: 30px;
